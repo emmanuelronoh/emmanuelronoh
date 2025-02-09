@@ -77,7 +77,7 @@ A fun and interactive Tic-Tac-Toe game with a sleek design:
 
 - [💼 LinkedIn](https://www.linkedin.com/in/emmanuel-kipkirui-9a4b8831a/)  
 - [🐙 GitHub](https://github.com/emmanuelronoh)  
-- [🌐 Portfolio](https://emmanuel-kipkirui-15vq.vercel.app)  
+- [🌐 Portfolio]((https://emmanuel-kipkirui-portfolio-brown.vercel.app/))  
 
 ---
 
