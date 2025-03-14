@@ -34,7 +34,7 @@ I'm a passionate **Software Engineer** with a knack for solving complex problems
 - 🎨 Bootstrap  
 
 ### 🛠️ **Backend**  
-- 🌐 Node.js  
+- 🌐 Django  
 - 📦 JSON Server  
 
 ### 🧰 **Tools & Platforms**  
