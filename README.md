@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Emmanuel Kipkirui!
+ 👋 Hi there, I'm Emmanuel Kipkirui!
 
 class SoftwareEngineer:
     def __init__(self):
@@ -68,7 +68,7 @@ class SoftwareEngineer:
         print("Ask me about:", ", ".join(self.ask_me_about))
         print("Contact me via email:", self.contact["email"])
 
-# Run the profile
+ Run the profile
 if __name__ == "__main__":
     me = SoftwareEngineer()
     me.introduce()
