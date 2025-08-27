@@ -1,85 +1,74 @@
-# 👋 Hi there, I'm Emmanuel Kipkirui!  
-I'm a passionate **Software Engineer** with a knack for solving complex problems, building innovative solutions, and creating impactful projects that make a difference.  
+# 👋 Hi there, I'm Emmanuel Kipkirui!
 
----
+class SoftwareEngineer:
+    def __init__(self):
+        self.name = "Emmanuel Kipkirui"
+        self.title = "Software Engineer"
+        self.passion = "solving complex problems, building innovative solutions, and creating impactful projects"
 
-## 🚀 About Me  
-- 🌟 **Current Focus**: Mastering **Software Development** and building **interactive applications**.  
-- 🔭 **Exciting Projects**:  
-  - Developing **e-commerce platforms** that redefine online shopping.  
-  - Building **educational tools** to make learning seamless.  
-  - Designing **adventure games** to entertain and educate kids.  
-- 🌱 **Currently Learning**:  
-  - **React.js** to create dynamic UIs.  
-  - **Advanced Backend Development** to build robust systems.  
-- 💬 **Ask Me About**:  
-  - **Software engineering** best practices.  
-  - **Web development** tools and frameworks.  
-  - Crafting **user-friendly applications** from scratch.  
-- 📫 **Get In Touch**:  
-  - [📧 Email Me](mailto:erono036@gmail.com)  
+        self.current_focus = ["Mastering Software Development", "Building interactive applications"]
+        self.exciting_projects = [
+            "Developing e-commerce platforms that redefine online shopping",
+            "Building educational tools to make learning seamless",
+            "Designing adventure games to entertain and educate kids"
+        ]
+        self.currently_learning = ["React.js for dynamic UIs", "Advanced Backend Development"]
+        self.ask_me_about = ["Software engineering best practices", "Web development tools & frameworks", "Crafting user-friendly applications from scratch"]
 
----
+        self.contact = {
+            "email": "erono036@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/emmanuel-kipkirui-9a4b8831a/",
+            "github": "https://github.com/emmanuelronoh",
+            "portfolio": "https://emmanuel-kipkirui-portfolio-brown.vercel.app/"
+        }
 
-## 🛠️ My Tech Arsenal  
+        self.tech_stack = {
+            "languages": ["JavaScript", "Python", "HTML", "CSS"],
+            "frontend": ["React.js", "Bootstrap"],
+            "backend": ["Django", "JSON Server"],
+            "tools": ["Git & GitHub", "Visual Studio Code", "MySQL", "Postman", "Figma"]
+        }
 
-### 💻 **Languages**  
-- 🟦 JavaScript  
-- 🐍 Python  
-- 🔤 HTML  
-- 🎨 CSS  
+        self.github_stats = {
+            "stats_image": "https://github-readme-stats.vercel.app/api?username=emmanuelronoh&show_icons=true&theme=radical",
+            "top_languages": "https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelronoh&layout=compact&theme=radical"
+        }
 
-### 🌐 **Frontend**  
-- ⚛️ React.js  
-- 🎨 Bootstrap  
+        self.featured_projects = {
+            "Meal Magic Recipe App": {
+                "url": "meal-magic-recipe-app.vercel.app",
+                "features": [
+                    "Diverse recipes from different cultures",
+                    "Save favorite recipes for quick access",
+                    "Purchase premium recipes securely via PayPal"
+                ]
+            },
+            "Near Shop": {
+                "url": "https://e-commerce-website-kappa-snowy.vercel.app/",
+                "features": [
+                    "Secure user authentication and product management",
+                    "Dynamic shopping cart with dark mode"
+                ]
+            },
+            "Tic Tac Toe Game": {
+                "url": "react-game-sable.vercel.app",
+                "features": [
+                    "Classic 3x3 grid gameplay for two players",
+                    "Smooth animations and modern UI"
+                ]
+            }
+        }
 
-### 🛠️ **Backend**  
-- 🌐 Django  
-- 📦 JSON Server  
+    def introduce(self):
+        print(f"Hi, I'm {self.name}, a passionate {self.title}.")
+        print(f"I love {self.passion}.")
+        print("Currently focusing on:", ", ".join(self.current_focus))
+        print("Projects I'm excited about:", "; ".join(self.exciting_projects))
+        print("Learning:", ", ".join(self.currently_learning))
+        print("Ask me about:", ", ".join(self.ask_me_about))
+        print("Contact me via email:", self.contact["email"])
 
-### 🧰 **Tools & Platforms**  
-- 🌱 Git & GitHub  
-- 🖥️ Visual Studio Code  
-- 🗄️ MySQL  
-- 📮 Postman  
-- 🎨 Figma  
-
----
-
-## 📈 GitHub Stats  
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=emmanuelronoh&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelronoh&layout=compact&theme=radical)  
-
----
-
-## 🌟 Featured Projects  
-
-### [🍽️ Meal Magic Recipe App](meal-magic-recipe-app.vercel.app)  
-A delightful recipe app to explore and enjoy global cuisines:  
-- 🌍 Diverse recipes from different cultures and traditions.  
-- 📌 Save favorite recipes for quick and easy access.
-- 💳 Purchase premium recipes securely via PayPal.  
-
-### [🛒 Near Shop](https://e-commerce-website-kappa-snowy.vercel.app/)  
-A user-friendly **e-commerce site** offering:  
-- 🔒 Secure **user authentication** and **product management**.  
-- 🛍️ Dynamic **shopping cart** with dark mode customization.  
-
-### [🎮 Tic Tac Toe Game](react-game-sable.vercel.app)  
-A fun and interactive Tic-Tac-Toe game with a sleek design:  
-- 🎮 Classic 3x3 grid gameplay for two players. 
-- ✨ Smooth animations and modern UI for an immersive experience. 
-
----
-
-## 🔗 Let's Connect  
-
-- [💼 LinkedIn](https://www.linkedin.com/in/emmanuel-kipkirui-9a4b8831a/)  
-- [🐙 GitHub](https://github.com/emmanuelronoh)  
-- [🌐 Portfolio](https://emmanuel-kipkirui-portfolio-brown.vercel.app/)  
-
----
-
-✨ *"Transforming ideas into impactful solutions, one elegant line of code at a time."*  
-
+# Run the profile
+if __name__ == "__main__":
+    me = SoftwareEngineer()
+    me.introduce()
