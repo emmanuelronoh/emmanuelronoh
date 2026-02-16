@@ -61,15 +61,14 @@ A delightful recipe app to explore and enjoy global cuisines:
 - 📌 Save favorite recipes for quick and easy access.
 - 💳 Purchase premium recipes securely via PayPal.  
 
-### [🛒 Near Shop](https://e-commerce-website-kappa-snowy.vercel.app/)  
+### [🛒 E&X Global ](https://shop.calabrixtech.com/)  
 A user-friendly **e-commerce site** offering:  
 - 🔒 Secure **user authentication** and **product management**.  
 - 🛍️ Dynamic **shopping cart** with dark mode customization.  
 
-### [🎮 Tic Tac Toe Game](react-game-sable.vercel.app)  
-A fun and interactive Tic-Tac-Toe game with a sleek design:  
-- 🎮 Classic 3x3 grid gameplay for two players. 
-- ✨ Smooth animations and modern UI for an immersive experience. 
+### [Tech Knowledge Platform](https://moringa-insights-hub.vercel.app/)  
+Community driven tech knowledge platform delivering verified videos, 
+blogs, and audio with discussions, personalization, and role-based moderation.
 
 ---
 
