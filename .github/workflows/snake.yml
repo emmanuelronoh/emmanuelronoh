@@ -5,6 +5,11 @@ on:
     - cron: "0 0 * * *"  # Runs daily at midnight
   workflow_dispatch:  # Allows manual trigger
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -12,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Generate snake.svg
         uses: Platane/snk@v3
@@ -28,3 +35,5 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update snake animation [skip ci]"
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
