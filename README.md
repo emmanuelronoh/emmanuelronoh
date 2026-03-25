@@ -83,10 +83,10 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 
 ---
 
-### 🏆 GitHub Trophies
+### 📊 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=emmanuelronoh&theme=darkhub&no-frame=true&row=2&column=4" alt="GitHub Trophies"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=emmanuelronoh&theme=react-dark&bg_color=000000&hide_border=true&area=true" alt="GitHub Activity Graph"/>
 </div>
 
 ---
