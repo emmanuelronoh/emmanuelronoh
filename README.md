@@ -16,7 +16,7 @@
     <a href="https://github.com/emmanuelronoh">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
     </a>
-    <a href="https://kipkiruiemmanuel.vercel.app/">
+    <a href="https://emmanuel.calabrix.net/">
       <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Badge"/>
     </a>
     <a href="https://twitter.com/emmanuelkipkir">
@@ -153,7 +153,7 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
   <a href="https://github.com/emmanuelronoh"> 
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> 
   </a>
-  <a href="https://kipkiruiemmanuel.vercel.app/"> 
+  <a href="https://emmanuel.calabrix.net/"> 
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/> 
   </a>
   <a href="mailto:eronoh036@gmail.com"> 
