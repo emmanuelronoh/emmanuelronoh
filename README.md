@@ -74,11 +74,16 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 ### 🔥 My Stats :
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=emmanuelronoh&theme=dark&background=000000" alt="GitHub Streak" />
+  <!-- ✅ WORKS: Streak stats -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emmanuelronoh&theme=dark&background=000000" alt="GitHub Streak" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelronoh&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
+
+  <!-- ✅ FIXED: Using GitHub Stats Extended -->
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=emmanuelronoh&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=emmanuelronoh&show_icons=true&theme=radical" alt="GitHub Stats" />
+
+  <!-- ✅ FIXED: Using GitHub Stats Extended -->
+  <img src="https://github-stats-extended.vercel.app/api?username=emmanuelronoh&show_icons=true&theme=radical" alt="GitHub Stats" />
 </div>
 
 ---
